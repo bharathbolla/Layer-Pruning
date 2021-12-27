@@ -10,14 +10,16 @@ inspired by our work on multimodal architectures, we further extended our work o
 
 <h2> Methodology </h2>
 Tuning can be done for all the layers or selective layers as done in our research.
+
 <img src="https://user-images.githubusercontent.com/48343095/147483966-d15c36b8-16f8-4f2b-ab7f-395da3ce8c65.png"  width="500"  style = "float:right" height = "250"/>
 
 The following image shows the methdology implemented in our paper.
+
 <img src="https://user-images.githubusercontent.com/48343095/147484300-f76ecd29-2b38-4276-8aa7-d7f5edb6fcdf.png"  width="500"  style = "float:right" height = "250"/>
 <img src="https://user-images.githubusercontent.com/48343095/147484302-6a460fcd-280d-4d91-bd31-49d4b99824e8.png"  width="600"  style = "float:right" height = "750"/>
 
-The data set used here is the SDSS-4 DR-16 release dataset 
-82 experiments as shown below are conducted.
+The data set used here is the SDSS-4 DR-16 release dataset. 82 experiments as shown below are conducted.
+
 <img src="https://user-images.githubusercontent.com/48343095/147485293-d4890f30-1a18-4d09-918d-3c9e876d11b8.png"  width="1100"  style = "float:right" height = "400"/>
 
 The models are evaluated based on the following evaluation metrics
