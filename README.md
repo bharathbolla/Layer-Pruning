@@ -13,7 +13,7 @@ Tuning can be done for all the layers or selective layers as done in our researc
 
 <img src="https://user-images.githubusercontent.com/48343095/147483966-d15c36b8-16f8-4f2b-ab7f-395da3ce8c65.png"  width="500"  style = "float:right" height = "250"/>
 
-The following image shows the methdology implemented in our paper.
+The following image shows the methdoology implemented in our paper.
 
 <img src="https://user-images.githubusercontent.com/48343095/147484300-f76ecd29-2b38-4276-8aa7-d7f5edb6fcdf.png"  width="500"  style = "float:right" height = "250"/>
 <img src="https://user-images.githubusercontent.com/48343095/147484302-6a460fcd-280d-4d91-bd31-49d4b99824e8.png"  width="600"  style = "float:right" height = "750"/>
