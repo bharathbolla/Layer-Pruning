@@ -1,5 +1,7 @@
 # Layer Fine Tuning of Deep Networks
 
+## Paper presented at CICT 2021
+
 inspired by our work on multimodal architectures, we further extended our work on the layer fine tuning of deep networks and thier effect on the accuracy of the model. Layer fine tuning involves sequentially making the top layers of a network trainable in increasing ratios until an appropriately high validation accuracy is achieved. Different Deep networks behave differently to this "sequential fine tuning". We have conducted experiments on popular transfer learning architectures trained on ImageNet. A representation of the fine tuning is shown below.  
 
 <img src="https://user-images.githubusercontent.com/48343095/147483623-c17ed2eb-b626-4728-89f1-23906c2914a0.png"  width="500"  style = "float:right" height = "250"/>
