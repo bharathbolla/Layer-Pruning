@@ -17,8 +17,6 @@ The data set used here is the SDSS-4 DR-16 release dataset
 <img src="https://user-images.githubusercontent.com/48343095/147485293-d4890f30-1a18-4d09-918d-3c9e876d11b8.png"  width="1100"  style = "float:right" height = "400"/>
 
 The models are evaluated based on the following evaluation metrics
-<img src="https://user-images.githubusercontent.com/48343095/147485293-d4890f30-1a18-4d09-918d-3c9e876d11b8.png"  width="1100"  style = "float:right" height = "400"/>
-
 
 1) Accuracy – TP+ TN / TP+FP+TN+FN
 2) Layer tuning ratio – Number of layers tuned / Total number of layers
@@ -35,14 +33,49 @@ Resnet50, MobileNetV2, NasnetMobile   - Dipping Accuracies
 <img src="https://user-images.githubusercontent.com/48343095/147486286-7019c092-4510-41bf-b0d0-b9e96c3705f2.png"  width="600"  style = "float:right" height = "250"/>
 
 VGG16 - Flattening of Accuracies after initial rise
+
 <img src="https://user-images.githubusercontent.com/48343095/147486837-4d97c910-168f-43b4-9e1e-9d80c4e8a93d.png"  width="600"  style = "float:right" height = "250"/>
 
 DensetNet121, EfficientNetB2, Xception - Consistency of Accuracies
+
 <img src="https://user-images.githubusercontent.com/48343095/147486944-194321c8-ca22-4811-a608-b32c63121fcf.png"  width="600"  style = "float:right" height = "250"/>
 <img src="https://user-images.githubusercontent.com/48343095/147487046-49c16217-22d3-48dd-93d8-beea0dd09d43.png"  width="600"  style = "float:right" height = "250"/>
 <img src="https://user-images.githubusercontent.com/48343095/147487057-7f3633a2-96c2-4f3b-ac5c-da83df1f94a3.png"  width="600"  style = "float:right" height = "250"/>
 
 <h2> Summary of Architectures</h2>
 It is seen that Pre trained models perform better at a specific number of trainable layers, we call this the 'narrow performance index' which determines the ideal number of traiinable layers for a given dataset outside of which may result in decreased performance / increased training time. 
+
+<img src="https://user-images.githubusercontent.com/48343095/147488194-3fa14fb4-328e-4a84-a562-20a6396334bf.png"  width="600"  style = "float:right" height = "250"/>
+
+Baseline Models 
+  - Xception/EfficientNetB2 > 
+  - MobileNetV2/NasNetMobile >
+  - DenseNet121 > Resnet50/VGG16 
+<img src="https://user-images.githubusercontent.com/48343095/147488571-11b9f1e2-7b34-4bce-9831-b33b3efa7355.png"  width="500"  style = "float:right" height = "125"/>
+<img src="https://user-images.githubusercontent.com/48343095/147488587-3a787444-6e2f-4c25-9378-ab62484dd492.png"  width="600"  style = "float:right" height = "300"/>
+
+Older & Mobile Architectures 
+  - Overfitting of Training Curves Mnet > NasNet
+  - Lower Accuracies except VGG16
+ 
+Newer Architectures
+  - Consistency of Accuracies
+  - Immune to Change of Weights
+
+DenseNet121
+  - Highest Accuracy  - Efficient to Layer Fine Tuning
+  - Least Layer Tuning Ratio & Parameter Tuning Ratio
+
+
+
+
+
+
+
+
+
+
+
+
 
 
