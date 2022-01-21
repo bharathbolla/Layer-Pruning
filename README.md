@@ -1,6 +1,8 @@
 # Layer Fine Tuning of Deep Networks
 
 ## Paper presented at CICT 2021 [CICT2021_Layer_Fine_Tuning.pdf](https://github.com/sabeesh90/Layer_Fine_Tuning/files/7781439/CICT2021_Layer_Fine_Tuning.pdf)
+[CICT-2021_Presentation.pptx](https://github.com/sabeesh90/Layer_Fine_Tuning/files/7914969/CICT-2021_Presentation.pptx)
+
 ### Authors -Sabeesh Ethiraj , Bharath Kumar Bolla
 <img src="https://user-images.githubusercontent.com/48343095/147504253-463ff874-0737-4771-be02-40d1bfd0f100.png"  width="600"  style = "float:right" height = "650"/>
 
