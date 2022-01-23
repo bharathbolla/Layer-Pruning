@@ -1,4 +1,4 @@
-# Layer Fine Tuning of Deep Networks
+# Layer Fine Tuning of Deep Neural Networks after Trandfer Learning
 
 ## Paper presented at CICT 2021 [CICT2021_Layer_Fine_Tuning.pdf](https://github.com/sabeesh90/Layer_Fine_Tuning/files/7781439/CICT2021_Layer_Fine_Tuning.pdf)
 [CICT-2021_Presentation.pptx](https://github.com/sabeesh90/Layer_Fine_Tuning/files/7914969/CICT-2021_Presentation.pptx)
